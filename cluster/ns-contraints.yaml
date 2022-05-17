@@ -7,5 +7,6 @@ metadata: # kpt-merge: /restrict-default-namespace
     bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.7.4
 spec:
   parameters:
+    enforcementAction: deny 
     restrictedNamespaces:
     - default
