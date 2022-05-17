@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
+  namespace: cluster-wide
   annotations:
     configmanagement.gke.io/cluster-selector: selector-role-dev
   labels:
