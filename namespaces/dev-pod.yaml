@@ -6,7 +6,6 @@ metadata:
     configmanagement.gke.io/cluster-selector: selector-role-dev
   labels:
    role: dev
-  namespace: dev-only
 spec:
   containers:
   - name: nginx
