@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   annotations:
    configmanagement.gke.io/cluster-selector: selector-role-prod
-  name: prod-only
+  name: prod-only-ns

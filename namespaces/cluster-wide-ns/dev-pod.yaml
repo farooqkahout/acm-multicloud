@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dev-env-only-pod
+  namespace: cluster-wide-ns
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-role-dev
+  labels:
+   role: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
