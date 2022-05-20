@@ -3,4 +3,5 @@ apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
   name: week1-mission-muhammad-farooq-cluster2
   labels:
-    role: dev
+    env: dev
+    deployer: farooq
